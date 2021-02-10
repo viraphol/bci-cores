@@ -1,6 +1,6 @@
 CAPI=2:
 
-name: "bci:ip:hello:0-r1"
+name: "bci:ip:hello:git-r1"
 description: "hello"
 filesets:
     files_rtl:
