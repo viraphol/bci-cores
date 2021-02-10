@@ -1,0 +1,2 @@
+# bci-cores
+fusesoc cores
