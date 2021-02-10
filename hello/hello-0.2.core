@@ -25,5 +25,11 @@ targets:
         filesets:
             - files_rtl
             - files_tb
-        toplevel: hello
+        toplevel: tb
+    sim:
+        default_tool: xsim
+        filesets:
+            - files_rtl
+            - files_tb
+        toplevel: tb
 
