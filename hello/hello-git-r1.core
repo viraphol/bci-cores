@@ -18,7 +18,7 @@ provider:
     patches: []
     repo: hello
     user: viraphol
-    version:
+    version: git-r1
 
 targets:
     default: &default_target
