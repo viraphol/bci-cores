@@ -1,0 +1,29 @@
+CAPI=2:
+
+name: "bci:ip:hello:0-r1"
+description: "hello"
+filesets:
+    files_rtl:
+        files:
+            - rtl/hello.sv
+        file_type: systemVerilogSource
+
+    files_tb:
+        files:
+            - dv/tb/tb.sv
+        file_type: systemVerilogSource
+         
+provider:
+    name: github
+    patches: []
+    repo: hello
+    user: viraphol
+    version:
+
+targets:
+    default: &default_target
+        filesets:
+            - files_rtl
+            - files_tb
+        toplevel: hello
+
